@@ -1,0 +1,52 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border;
+}
+.form-control option{
+	background-color: slategrey;
+}
+body{
+	background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(../images/background.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.all div{
+	/* height: 250px; */
+	/* width: 350px; */
+	margin-bottom: 25px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.all div img{
+	width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+	/* display: inline-block; */
+	margin-bottom: 25px;
+}
+.all div img:hover{
+	transform: translateY(-15px);
+    box-shadow: 0 0 6px 6px #e2dfdf;
+    cursor: pointer;
+}
+/* .green div{
+	background-color: green;
+}
+.orange div{
+	background-color: orange;
+}
+.red div{
+	background-color: red;
+}
+.hotpink div{
+	background-color: hotpink;
+}
+.yellow div{
+	background-color: yellow;
+} */
